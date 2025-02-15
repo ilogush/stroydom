@@ -1,0 +1,22 @@
+{
+  "name": "my-astro-app",
+  "version": "1.0.0",
+  "description": "A simple Astro application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "start": "astro start"
+  },
+  "keywords": [
+    "astro",
+    "web",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "astro": "^2.0.0"
+  },
+  "devDependencies": {}
+}
