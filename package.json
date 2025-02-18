@@ -16,6 +16,6 @@
   "author": "efimov82",
   "license": "MIT",
   "dependencies": {
-    "astro": "^2.4.5"
+    "astro": "^2.0.0"
   }
 }
