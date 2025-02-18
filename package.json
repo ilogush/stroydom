@@ -1,7 +1,7 @@
 {
-  "name": "my-astro-app",
+  "name": "stroydom",
   "version": "1.0.0",
-  "description": "A simple Astro application",
+  "description": "Web project for webstroydom site",
   "main": "index.js",
   "scripts": {
     "dev": "astro dev",
@@ -13,10 +13,9 @@
     "web",
     "application"
   ],
-  "author": "Your Name",
+  "author": "efimov82",
   "license": "MIT",
   "dependencies": {
-    "astro": "^2.0.0"
-  },
-  "devDependencies": {}
+    "astro": "^2.4.5"
+  }
 }

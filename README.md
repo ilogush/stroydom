@@ -1,4 +1,4 @@
-# My Astro App
+# Webstroydom App
 
 This is a simple Astro application that demonstrates the use of components, layouts, and global styles.
 
