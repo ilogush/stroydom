@@ -10,12 +10,13 @@ import Reviews from '../components/Reviews.astro';
 import News from '../components/News.astro';
 import CTA from '../components/CTA.astro';
 import Footer from '../components/Footer.astro';
+import * as m from "../paraglide/messages.js"
 ---
 
 <!DOCTYPE html>
 <html lang="ru" style="background: #FFFFFF;">
 <head>
-	<title>BuildGo</title>
+	<title>{m.pageTitle()}</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<noscript>

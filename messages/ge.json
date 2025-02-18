@@ -1,4 +1,5 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
-  "greeting": "Gamarjoba {name}"
+  "pageTitle": "გვერდის სათაური",
+  "greeting": "გამარჯობა {name}"
 }
