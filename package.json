@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
-    "start": "astro start"
+    "build": "paraglide-js compile --project ./project.inlang --outdir ./src/paraglide && astro build",
+    "start": "astro start",
+    "postinstall": "paraglide-js compile --project ./project.inlang --outdir ./src/paraglide"
   },
   "keywords": [
     "astro",
@@ -16,6 +17,10 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "@inlang/paraglide-astro": "^0.3.5",
     "astro": "^5.3.0"
+  },
+  "devDependencies": {
+    "@inlang/paraglide-js": "1.11.8"
   }
 }
