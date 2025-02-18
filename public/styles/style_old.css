@@ -432,8 +432,9 @@ h6 {
   border-top: 1px solid var(--border-color-4)
 }
 .hero {
-  background: url(../img/images/hero-img.webp) top center/cover no-repeat;
+  background: url(../images/hero-img.webp) top center/cover no-repeat;
   position: relative;
+  margin: auto;
   padding: 70px 0 120px
 }
 .hero::after {
@@ -987,7 +988,7 @@ h6 {
   margin: 0 auto;
   padding: 70px 60px;
   border-radius: 20px;
-  background: url(../img/images/cta-bg.webp) center/cover no-repeat
+  background: url(../images/cta-bg.webp) center/cover no-repeat
 }
 .cta__title {
   max-width: 610px;
