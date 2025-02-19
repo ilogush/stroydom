@@ -1,69 +1,69 @@
+---
+import * as m from "../paraglide/messages.js"
+---
+
 <section class="faq">
 	<div class="faq__container">
-		<h2 class="faq__title title">Часто задаваемые вопросы</h2>
+		<h2 class="faq__title title">{m.faqTitle()}</h2>
 		<div class="spollers _spoller-init" data-spollers="" data-one-spoller="">
 			<details class="spollers__item">
-				<summary class="spollers__title">Можно ли вернуть строительные материалы, если я заказал слишком много?<span></span></summary>
+				<summary class="spollers__title">{m.faqQuestion1()}<span></span></summary>
 				<div class="spollers__body" hidden="">
-					<p>Да, многие поставщики разрешают возврат неиспользованных строительных материалов, но правила могут быть разными. Вот что вам следует учесть:</p>
+					<p>{m.faqAnswer1Intro()}</p>
 					<ul>
-						<li><span>Проверьте правила:</span> Ознакомьтесь с политикой поставщика в отношении возврата неиспользованных материалов.</li>
-						<li><span>Срок возврата:</span> Возможно, существует ограничение по срокам возврата, поэтому действуйте быстро.</li>
-						<li><span>Состояние материалов:</span> Убедитесь, что материалы находятся в оригинальном, неиспользованном состоянии.</li>
-						<li><span>Плата за возврат:</span> Имейте в виду, что некоторые поставщики могут взимать комиссию за возврат товара.</li>
-						<li><span>Документация:</span> Сохраняйте чек на покупку и все необходимые документы для возврата.</li>
+						<li><span>{m.faqAnswer1Point1Title()}</span> {m.faqAnswer1Point1Text()}</li>
+						<li><span>{m.faqAnswer1Point2Title()}</span> {m.faqAnswer1Point2Text()}</li>
+						<li><span>{m.faqAnswer1Point3Title()}</span> {m.faqAnswer1Point3Text()}</li>
+						<li><span>{m.faqAnswer1Point4Title()}</span> {m.faqAnswer1Point4Text()}</li>
+						<li><span>{m.faqAnswer1Point5Title()}</span> {m.faqAnswer1Point5Text()}</li>
 					</ul>
 				</div>
 			</details>
 			<details class="spollers__item" data-open="" open="">
-				<summary class="spollers__title _spoller-active">Что делать, если я получил поврежденные строительные материалы?<span></span></summary>
+				<summary class="spollers__title _spoller-active">{m.faqQuestion2()}<span></span></summary>
 				<div class="spollers__body">
-					<p>На стоимость строительных материалов может влиять несколько факторов, в том числе:</p>
+					<p>{m.faqAnswer2Intro()}</p>
 					<ul>
-						<li><span>Спрос и предложение:</span> Колебания спроса или дефицит предложения могут привести к росту цен.</li>
-						<li><span>Тип материала:</span> Различные материалы имеют разную стоимость в зависимости от качества и доступности.</li>
-						<li><span>Местонахождение:</span> Транспортные расходы могут варьироваться в зависимости от расстояния, на которое необходимо доставить
-							материалы.</li>
-						<li><span>Сезонность:</span> Некоторые материалы могут быть дешевле в непиковые сезоны.</li>
+						<li><span>{m.faqAnswer2Point1Title()}</span> {m.faqAnswer2Point1Text()}</li>
+						<li><span>{m.faqAnswer2Point2Title()}</span> {m.faqAnswer2Point2Text()}</li>
+						<li><span>{m.faqAnswer2Point3Title()}</span> {m.faqAnswer2Point3Text()}</li>
+						<li><span>{m.faqAnswer2Point4Title()}</span> {m.faqAnswer2Point4Text()}</li>
 					</ul>
 				</div>
 			</details>
 			<details class="spollers__item">
-				<summary class="spollers__title">Существуют ли экологически чистые варианты строительных материалов?<span></span></summary>
+				<summary class="spollers__title">{m.faqQuestion3()}<span></span></summary>
 				<div class="spollers__body" hidden="">
-					<p>На стоимость строительных материалов может влиять несколько факторов, в том числе:</p>
+					<p>{m.faqAnswer3Intro()}</p>
 					<ul>
-						<li><span>Спрос и предложение:</span> Колебания спроса или дефицит предложения могут привести к росту цен.</li>
-						<li><span>Тип материала:</span> Различные материалы имеют разную стоимость в зависимости от качества и доступности.</li>
-						<li><span>Местонахождение:</span> Транспортные расходы могут варьироваться в зависимости от расстояния, на которое необходимо доставить
-							материалы.</li>
-						<li><span>Сезонность:</span> Некоторые материалы могут быть дешевле в непиковые сезоны.</li>
+						<li><span>{m.faqAnswer3Point1Title()}</span> {m.faqAnswer3Point1Text()}</li>
+						<li><span>{m.faqAnswer3Point2Title()}</span> {m.faqAnswer3Point2Text()}</li>
+						<li><span>{m.faqAnswer3Point3Title()}</span> {m.faqAnswer3Point3Text()}</li>
+						<li><span>{m.faqAnswer3Point4Title()}</span> {m.faqAnswer3Point4Text()}</li>
 					</ul>
 				</div>
 			</details>
 			<details class="spollers__item">
-				<summary class="spollers__title">Как подготовиться к доставке строительных материалов?<span></span></summary>
+				<summary class="spollers__title">{m.faqQuestion4()}<span></summary>
 				<div class="spollers__body" hidden="">
-					<p>На стоимость строительных материалов может влиять несколько факторов, в том числе:</p>
+					<p>{m.faqAnswer4Intro()}</p>
 					<ul>
-						<li><span>Спрос и предложение:</span> Колебания спроса или дефицит предложения могут привести к росту цен.</li>
-						<li><span>Тип материала:</span> Различные материалы имеют разную стоимость в зависимости от качества и доступности.</li>
-						<li><span>Местонахождение:</span> Транспортные расходы могут варьироваться в зависимости от расстояния, на которое необходимо доставить
-							материалы.</li>
-						<li><span>Сезонность:</span> Некоторые материалы могут быть дешевле в непиковые сезоны.</li>
+						<li><span>{m.faqAnswer4Point1Title()}</span> {m.faqAnswer4Point1Text()}</li>
+						<li><span>{m.faqAnswer4Point2Title()}</span> {m.faqAnswer4Point2Text()}</li>
+						<li><span>{m.faqAnswer4Point3Title()}</span> {m.faqAnswer4Point3Text()}</li>
+						<li><span>{m.faqAnswer4Point4Title()}</span> {m.faqAnswer4Point4Text()}</li>
 					</ul>
 				</div>
 			</details>
 			<details class="spollers__item">
-				<summary class="spollers__title">Какие факторы могут повлиять на стоимость строительных материалов?<span></span></summary>
+				<summary class="spollers__title">{m.faqQuestion5()}<span></summary>
 				<div class="spollers__body" hidden="">
-					<p>На стоимость строительных материалов может влиять несколько факторов, в том числе:</p>
+					<p>{m.faqAnswer5Intro()}</p>
 					<ul>
-						<li><span>Спрос и предложение:</span> Колебания спроса или дефицит предложения могут привести к росту цен.</li>
-						<li><span>Тип материала:</span> Различные материалы имеют разную стоимость в зависимости от качества и доступности.</li>
-						<li><span>Местонахождение:</span> Транспортные расходы могут варьироваться в зависимости от расстояния, на которое необходимо доставить
-							материалы.</li>
-						<li><span>Сезонность:</span> Некоторые материалы могут быть дешевле в непиковые сезоны.</li>
+						<li><span>{m.faqAnswer5Point1Title()}</span> {m.faqAnswer5Point1Text()}</li>
+						<li><span>{m.faqAnswer5Point2Title()}</span> {m.faqAnswer5Point2Text()}</li>
+						<li><span>{m.faqAnswer5Point3Title()}</span> {m.faqAnswer5Point3Text()}</li>
+						<li><span>{m.faqAnswer5Point4Title()}</span> {m.faqAnswer5Point4Text()}</li>
 					</ul>
 				</div>
 			</details>
