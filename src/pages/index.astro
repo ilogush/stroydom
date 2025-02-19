@@ -1,61 +1,62 @@
 ---
-import Header from '../components/Header.astro';
-import Hero from '../components/Hero.astro';
-import Portfolio from '../components/Portfolio.astro';
-import Projects from '../components/Projects.astro';
-import Stages from '../components/Stages.astro';
-import Pricing from '../components/Pricing.astro';
-import FAQ from '../components/FAQ.astro';
-import Reviews from '../components/Reviews.astro';
-import News from '../components/News.astro';
-import CTA from '../components/CTA.astro';
-import Footer from '../components/Footer.astro';
-import * as m from "../paraglide/messages.js"
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import Portfolio from "../components/Portfolio.astro";
+import Projects from "../components/Projects.astro";
+import Stages from "../components/Stages.astro";
+import Pricing from "../components/Pricing.astro";
+import FAQ from "../components/FAQ.astro";
+import Reviews from "../components/Reviews.astro";
+import News from "../components/News.astro";
+import CTA from "../components/CTA.astro";
+import Footer from "../components/Footer.astro";
+import * as m from "../paraglide/messages.js";
 ---
 
-<!DOCTYPE html>
-<html lang="ru" style="background: #FFFFFF;">
-<head>
-	<title>{m.pageTitle()}</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<noscript>
+<!doctype html>
+<html lang="ge" style="background: #FFFFFF;">
+	<head>
+		<title>{m.pageTitle()}</title>
+		<meta charset="UTF-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<noscript>
+			<style>
+				body {
+					opacity: 1 !important;
+				}
+			</style>
+		</noscript>
 		<style>
 			body {
-				opacity: 1 !important;
+				opacity: 0.001;
 			}
 		</style>
-	</noscript>
-	<style>
-		body {
-			opacity: 0.001;
-		}
-	</style>
-	<link rel="stylesheet" href="styles/style.css">
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="icon" href="/favicon.webp" sizes="32x32">
-	<link rel="icon" href="/favicon.webp" sizes="192x192">
-	<link rel="apple-touch-icon" href="/favicon.webp">
-	<meta name="msapplication-TileImage" content="/favicon.webp">
-	<meta name="robots" content="noindex, nofollow">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-	<div class="wrapper">
-		<Header />
-		<main class="page">
-			<Hero />
-			<Portfolio />
-			<Projects />
-			<Stages />
-			<Pricing />
-			<FAQ />
-			<Reviews />
-			<News />
-			<CTA />
-		</main>
-		<Footer />
-	</div>
-	<!-- <script src="app.js" is:inline></script> -->
-</body>
+		<link rel="stylesheet" href="/styles/style.css" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="icon" href="/favicon.webp" sizes="32x32" />
+		<link rel="icon" href="/favicon.webp" sizes="192x192" />
+		<link rel="apple-touch-icon" href="/favicon.webp" />
+		<meta name="msapplication-TileImage" content="/favicon.webp" />
+		<meta name="robots" content="noindex, nofollow" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<body>
+			<div class="wrapper">
+				<Header />
+				<main class="page">
+					<Hero />
+					<Portfolio />
+					<Projects />
+					<Stages />
+					<Pricing />
+					<FAQ />
+					<Reviews />
+					<News />
+					<CTA />
+				</main>
+				<Footer />
+			</div>
+			<!-- <script src="app.js" is:inline></script> -->
+		</body>
+	</head>
 </html>
