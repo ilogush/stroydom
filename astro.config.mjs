@@ -12,7 +12,7 @@ import paraglide from "@inlang/paraglide-astro";
 
 export default {
   base: '/',
-  output: 'server',
+  // output: 'server',
   integrations: [
     paraglide({
       project: "./project.inlang",
