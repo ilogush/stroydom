@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import paraglide from "@inlang/paraglide-astro";
+import cloudflare from '@astro/cloudflare';
 
 // export default defineConfig({
 //   site: "http://localhost:3000",
@@ -12,6 +13,8 @@ import paraglide from "@inlang/paraglide-astro";
 
 export default {
   base: '/',
+  output: 'server',
+  adapter: cloudflare(),
   integrations: [
     paraglide({
       project: "./project.inlang",
