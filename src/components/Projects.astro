@@ -1,8 +1,12 @@
+---
+import * as m from "../paraglide/messages.js"
+---
+
 <section class="projects">
 	<div class="projects__container">
 		<div class="projects__title-wrapper">
-			<h2 class="projects__title title">Наши Завершенные Проекты</h2>
-			<a href="#" class="projects__button button _icon-arrow-up-right">Все проекты</a>
+			<h2 class="projects__title title">{m.completedProjects()}</h2>
+			<a href="#" class="projects__button button _icon-arrow-up-right">{m.allProjects()}</a>
 		</div>
 		<ul class="projects__slides">
 			<li class="projects__slide">
@@ -10,8 +14,8 @@
 				<div class="projects__slide-content content-slide">
 					<div class="content-slide__details">
 						<div class="content-slide__text">
-							<span>Здравоохранение</span>
-							<a href="#">Учреждения Здравоохранения</a>
+							<span>{m.healthcare()}</span>
+							<a href="#">{m.healthcareInstitutions()}</a>
 						</div>
 						<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
 					</div>
@@ -22,8 +26,8 @@
 				<div class="projects__slide-content content-slide">
 					<div class="content-slide__details">
 						<div class="content-slide__text">
-							<span>Жилье</span>
-							<a href="#">Ремонт элитного дома</a>
+							<span>{m.housing()}</span>
+							<a href="#">{m.eliteHouseRenovation()}</a>
 						</div>
 						<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
 					</div>
@@ -34,8 +38,8 @@
 				<div class="projects__slide-content content-slide">
 					<div class="content-slide__details">
 						<div class="content-slide__text">
-							<span>Общественные места</span>
-							<a href="#">культурно-спортивный центр</a>
+							<span>{m.publicPlaces()}</span>
+							<a href="#">{m.culturalSportsCenter()}</a>
 						</div>
 						<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
 					</div>
@@ -46,8 +50,8 @@
 				<div class="projects__slide-content content-slide">
 					<div class="content-slide__details">
 						<div class="content-slide__text">
-							<span>Промышленность</span>
-							<a href="#">Промышленный склад</a>
+							<span>{m.industry()}</span>
+							<a href="#">{m.industrialWarehouse()}</a>
 						</div>
 						<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
 					</div>
@@ -55,13 +59,4 @@
 			</li>
 		</ul>
 	</div>
-	<!-- <div class="projects__container">
-		<div class="projects__title-wrapper">
-			<h2 class="projects__title title">Наши Завершенные Проекты</h2>
-			<a href="#" class="projects__button button _icon-arrow-up-right">Все проекты</a>
-		</div>
-		<ul class="projects__slides">
-			Project slides go here
-		</ul>
-	</div> -->
 </section>

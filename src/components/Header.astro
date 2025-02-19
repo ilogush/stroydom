@@ -1,3 +1,7 @@
+---
+import * as m from "../paraglide/messages.js"
+---
+
 <header class="header">
 	<div class="header__container">
 		<div class="header__logo">
@@ -6,19 +10,19 @@
 		<div class="header__menu menu">
 			<nav class="menu__body">
 				<ul class="menu__list">
-					<li class="menu-item"><a href="#" class="menu-link">Главная</a></li>
-					<li class="menu-item"><a href="#" class="menu-link">О нас</a></li>
+					<li class="menu-item"><a href="#" class="menu-link">{m.headerMain()}</a></li>
+					<li class="menu-item"><a href="#" class="menu-link">{m.headerAbout()}</a></li>
 					<li class="menu-item has-submenu">
-						<a href="#" class="menu-link _icon-arrow-down">Услуги</a>
+						<a href="#" class="menu-link _icon-arrow-down">{m.headerServices()}</a>
 						<ul class="sub-menu">
-							<li class="menu-item"><a href="#" class="menu-link">Ремонт</a></li>
-							<li class="menu-item"><a href="#" class="menu-link">Реконструкция</a></li>
-							<li class="menu-item"><a href="#" class="menu-link">Строительство</a></li>
+							<li class="menu-item"><a href="#" class="menu-link">{m.headerRepair()}</a></li>
+							<li class="menu-item"><a href="#" class="menu-link">{m.headerReconstruction()}</a></li>
+							<li class="menu-item"><a href="#" class="menu-link">{m.headerConstruction()}</a></li>
 						</ul>
 						<span class="mobile-menu-arrow _icon-plus"></span>
 					</li>
-					<li class="menu-item"><a href="#" class="menu-link">Наши работы</a></li>
-					<li class="menu-item"><a href="#" class="menu-link">Новости</a></li>
+					<li class="menu-item"><a href="#" class="menu-link">{m.headerWorks()}</a></li>
+					<li class="menu-item"><a href="#" class="menu-link">{m.headerNews()}</a></li>
 				</ul>
 			</nav>
 		</div>
