@@ -6,8 +6,9 @@
   "ogDescription": "Home renovation and construction in Tbilisi. Quality services at affordable prices.",
   "twitterTitle": "Home Renovation and Construction in Tbilisi",
   "twitterDescription": "Home renovation and construction in Tbilisi. Quality services at affordable prices.",
+  
   "pageTitle": "Page Title",
-  "greeting": "Hello, {name}",
+
   "footerText": "All rights reserved",
   "headerSubtitle": "Welcome to our website",
   "heroTitle": "Welcome to our world",
@@ -28,6 +29,7 @@
   "newsDescription": "Latest news",
   "ctaTitle": "Start your dream project today!",
   "ctaButton": "Learn more",
+
   "headerMain": "Home",
   "headerAbout": "About Us",
   "headerServices": "Services",

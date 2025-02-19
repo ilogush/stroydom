@@ -1,7 +1,11 @@
+---
+import * as m from "../paraglide/messages.js"
+---
+
 <section class="cta">
 	<div class="cta__container">
 		<div class="cta__content">
-			<h2 class="cta__title">Начните проект своей мечты сегодня!</h2>
+			<h2 class="cta__title">{m.ctaTitle()}</h2>
 			<form class="cta__form" action="#" method="POST">
 				<input type="tel" name="phone" data-error="Пожалуйста, заполните это поле." placeholder="Номер телефона" pattern="\d*" title="Вводите только цыфри" class="input" data-validate="" required="">
 				<button type="submit" class="button">Оставить заявку</button>
