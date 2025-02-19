@@ -1,11 +1,15 @@
+---
+import * as m from "../paraglide/messages.js"
+---
+
 <section class="hero">
 	<div class="hero__container">
 		<div class="hero__content">
 			<h1 class="hero__title">
-				<span>Ремонт и строительство</span>
-				<span>В Тбилиси</span>
+				<span>{m.heroTitleLine1()}</span>
+				<span>{m.heroTitleLine2()}</span>
 			</h1>
-			<a href="#" class="hero__button button _icon-arrow-up-right">Узнать больше</a>
+			<a href="#" class="hero__button button _icon-arrow-up-right">{m.heroButton()}</a>
 		</div>
 	</div>
 	<!-- <img src="images/hero-img.webp" alt="Hero"> -->

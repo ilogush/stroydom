@@ -1,45 +1,48 @@
+---
+import * as m from "../paraglide/messages.js"
+---
 <section class="pricing">
 	<div class="pricing__container">
-		<h2 class="pricing__title title">Понятные Тарифы</h2>
+		<h2 class="pricing__title title">{m.clearRates()}</h2>
 		<ul class="pricing__items">
 			<li class="pricing__item">
-				<p class="pricing__package">Стартовый пакет</p>
-				<h3 class="pricing__plan">Базовый план</h3>
-				<p class="pricing__value"><span>$89</span> /Per monthly</p>
+				<p class="pricing__package">{m.startPackage()}</p>
+				<h3 class="pricing__plan">{m.basicPlan()}</h3>
+				<p class="pricing__value"><span>{m.price89()}</span> {m.perMonthly()}</p>
 				<ul class="pricing__details">
-					<li class="_icon-checked">Доступ к основным функциям</li>
-					<li class="_icon-checked">Хранилище объемом 5 ГБ</li>
-					<li class="_icon-checked">Поддержка электронной почты</li>
-					<li class="_icon-checked">Базовая аналитика</li>
-					<li class="_icon-checked">Доступ к форуму сообщества</li>
+					<li class="_icon-checked">{m.accessToBasicFeatures()}</li>
+					<li class="_icon-checked">{m.storage5GB()}</li>
+					<li class="_icon-checked">{m.emailSupport()}</li>
+					<li class="_icon-checked">{m.basicAnalytics()}</li>
+					<li class="_icon-checked">{m.communityForumAccess()}</li>
 				</ul>
-				<a href="#" class="pricing__button button _icon-arrow-up-right">Начать</a>
+				<a href="#" class="pricing__button button _icon-arrow-up-right">{m.start()}</a>
 			</li>
 			<li class="pricing__item active">
-				<p class="pricing__package">Пакет Развития</p>
-				<h3 class="pricing__plan">Стандартный план</h3>
-				<p class="pricing__value"><span>$129</span> /Per monthly</p>
+				<p class="pricing__package">{m.developmentPackage()}</p>
+				<h3 class="pricing__plan">{m.standardPlan()}</h3>
+				<p class="pricing__value"><span>{m.price129()}</span> {m.perMonthly()}</p>
 				<ul class="pricing__details">
-					<li class="_icon-checked">Доступ ко всем основным функциям</li>
-					<li class="_icon-checked">Хранилище объемом 50 ГБ</li>
-					<li class="_icon-checked">Приоритетная поддержка по электронной почте</li>
-					<li class="_icon-checked">Расширенная аналитика</li>
-					<li class="_icon-checked">Настраиваемая дашборд</li>
+					<li class="_icon-checked">{m.accessToAllBasicFeatures()}</li>
+					<li class="_icon-checked">{m.storage50GB()}</li>
+					<li class="_icon-checked">{m.priorityEmailSupport()}</li>
+					<li class="_icon-checked">{m.advancedAnalytics()}</li>
+					<li class="_icon-checked">{m.customizableDashboard()}</li>
 				</ul>
-				<a href="#" class="pricing__button button _icon-arrow-up-right">Начать</a>
+				<a href="#" class="pricing__button button _icon-arrow-up-right">{m.start()}</a>
 			</li>
 			<li class="pricing__item">
-				<p class="pricing__package">Пакет Pro</p>
-				<h3 class="pricing__plan">Премиум-план</h3>
-				<p class="pricing__value"><span>$159</span> /Per monthly</p>
+				<p class="pricing__package">{m.proPackage()}</p>
+				<h3 class="pricing__plan">{m.premiumPlan()}</h3>
+				<p class="pricing__value"><span>{m.price159()}</span> {m.perMonthly()}</p>
 				<ul class="pricing__details">
-					<li class="_icon-checked">Премиальные функции безопасности</li>
-					<li class="_icon-checked">Неограниченное хранилище</li>
-					<li class="_icon-checked">Круглосуточная поддержка по телефону и электронной почте</li>
-					<li class="_icon-checked">Базовая аналитика</li>
-					<li class="_icon-checked">Пользовательские опции брендинга</li>
+					<li class="_icon-checked">{m.premiumSecurityFeatures()}</li>
+					<li class="_icon-checked">{m.unlimitedStorage()}</li>
+					<li class="_icon-checked">{m.roundTheClockSupport()}</li>
+					<li class="_icon-checked">{m.basicAnalytics()}</li>
+					<li class="_icon-checked">{m.customBrandingOptions()}</li>
 				</ul>
-				<a href="#" class="pricing__button button _icon-arrow-up-right">Начать</a>
+				<a href="#" class="pricing__button button _icon-arrow-up-right">{m.start()}</a>
 			</li>
 		</ul>
 	</div>
