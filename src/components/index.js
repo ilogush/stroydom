@@ -1,0 +1,14 @@
+export { default as CTA } from './CTA.astro';
+export { default as FAQ } from './FAQ.astro';
+export { default as Footer } from './Footer.astro';
+export { default as Header } from './Header.astro';
+export { default as Hero } from './Hero.astro';
+export { default as MetaTags } from './MetaTags.astro';
+export { default as News } from './News.astro';
+export { default as PageLinks } from './PageLinks.astro';
+export { default as PageTitle } from './PageTitle.astro';
+export { default as Portfolio } from './Portfolio.astro';
+export { default as Pricing } from './Pricing.astro';
+export { default as Projects } from './Projects.astro';
+export { default as Reviews } from './Reviews.astro';
+export { default as Stages } from './Stages.astro';

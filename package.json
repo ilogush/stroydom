@@ -1,7 +1,7 @@
 {
   "name": "stroydom",
   "version": "1.0.0",
-  "description": "Web project for webstroydom site",
+  "description": "Web project for stroydom site",
   "main": "index.js",
   "scripts": {
     "dev": "astro dev",
