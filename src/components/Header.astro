@@ -1,5 +1,6 @@
 ---
-import * as m from "../paraglide/messages.js"
+import * as m from '../paraglide/messages.js';
+import { Icon } from 'astro-icon/components';
 ---
 
 <header class="header">
@@ -27,8 +28,12 @@ import * as m from "../paraglide/messages.js"
 			</nav>
 		</div>
 		<div class="header__contacts" data-da=".menu__body, 991.98, last">
-			<a class="_icon-telegram" href="https://t.me/+19176606994" target="_blank" aria-label="Telegram"></a>
-			<a class="_icon-whatsapp" href="https://wa.me/" target="_blank" aria-label="WhatsApp"></a>
+			<a class="_icon-telegram" href="https://t.me/+19176606994" target="_blank" aria-label="Telegram">
+				<Icon name="telegram"/>
+			</a>
+			<a class="_icon-whatsapp" href="https://wa.me/" target="_blank" aria-label="WhatsApp">
+				<Icon name="whatsup"/>
+			</a>
 		</div>
 		<button type="button" class="menu__icon icon-menu"><span></span></button>
 	</div>

@@ -1,12 +1,17 @@
 ---
-import * as m from "../paraglide/messages.js"
+import * as m from '../paraglide/messages.js';
+import { Icon } from 'astro-icon/components';
 ---
 <section class="portfolio">
 	<div class="portfolio__container">
 		<h2 class="portfolio__title title">{m.ourWorks()}</h2>
 		<div class="portfolio__navigation">
-			<button type="button" class="portfolio-button portfolio-button-prev _icon-arrow-right" aria-label={m.prevButton()}></button>
-			<button type="button" class="portfolio-button portfolio-button-next _icon-arrow-right" aria-label={m.nextButton()}></button>
+			<button type="button" class="portfolio-button portfolio-button-prev _icon-arrow-right" aria-label={m.prevButton()}>
+				<Icon name="arrowLeft" class="arrowLeft"/>
+			</button>
+			<button type="button" class="portfolio-button portfolio-button-next _icon-arrow-right" aria-label={m.nextButton()}>
+				<Icon name="arrowRight" class="arrowRight"/>
+			</button>
 		</div>
 	</div>
 	<div class="portfolio__slider swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
@@ -17,7 +22,9 @@ import * as m from "../paraglide/messages.js"
 					<img src="images/portfolio-02.webp" alt={m.healthcare()}>
 					<div class="portfolio__slide-content content-slide">
 						<div class="content-slide__details">
-							<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
+							<a href="#" class="content-slide__icon _icon-arrow-up-right">
+								<Icon name="arrowUpRight" class="portfolio-arrow-up-right"/>
+							</a>
 							<div class="content-slide__text">
 									<span>{m.healthcare()}</span>
 								<a href="#">{m.healthcareInstitutions()}</a>
@@ -25,12 +32,15 @@ import * as m from "../paraglide/messages.js"
 						</div>
 					</div>
 				</div>
-			</div><div class="portfolio__slide swiper-slide" data-swiper-slide-index="2" style="width: 463.333px; margin-right: 25px;">
+			</div>
+			<div class="portfolio__slide swiper-slide" data-swiper-slide-index="2" style="width: 463.333px; margin-right: 25px;">
 				<div class="portfolio__slide-contentainer">
 					<img src="images/portfolio-03.webp" alt={m.healthcare()}>
 					<div class="portfolio__slide-content content-slide">
 						<div class="content-slide__details">
-							<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
+							<a href="#" class="content-slide__icon _icon-arrow-up-right">
+								<Icon name="arrowUpRight" class="portfolio-arrow-up-right"/>
+							</a>
 							<div class="content-slide__text">
 									<span>{m.healthcare()}</span>
 								<a href="#">{m.healthcareInstitutions()}</a>
@@ -38,12 +48,15 @@ import * as m from "../paraglide/messages.js"
 						</div>
 					</div>
 				</div>
-			</div><div class="portfolio__slide swiper-slide" data-swiper-slide-index="3" style="width: 463.333px; margin-right: 25px;">
+			</div>
+			<div class="portfolio__slide swiper-slide" data-swiper-slide-index="3" style="width: 463.333px; margin-right: 25px;">
 				<div class="portfolio__slide-contentainer">
 					<img src="images/portfolio-04.webp" alt={m.healthcare()}>
 					<div class="portfolio__slide-content content-slide">
 						<div class="content-slide__details">
-							<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
+							<a href="#" class="content-slide__icon _icon-arrow-up-right">
+								<Icon name="arrowUpRight" class="arrowUpRight"/>
+							</a>
 							<div class="content-slide__text">
 									<span>{m.healthcare()}</span>
 								<a href="#">{m.healthcareInstitutions()}</a>
@@ -51,12 +64,15 @@ import * as m from "../paraglide/messages.js"
 						</div>
 					</div>
 				</div>
-			</div><div class="portfolio__slide swiper-slide" data-swiper-slide-index="4" style="width: 463.333px; margin-right: 25px;">
+			</div
+			><div class="portfolio__slide swiper-slide" data-swiper-slide-index="4" style="width: 463.333px; margin-right: 25px;">
 				<div class="portfolio__slide-contentainer">
 					<img src="images/portfolio-01.webp" alt={m.healthcare()}>
 					<div class="portfolio__slide-content content-slide">
 						<div class="content-slide__details">
-							<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
+							<a href="#" class="content-slide__icon _icon-arrow-up-right">
+								<Icon name="arrowUpRight" class="portfolio-arrow-up-right"/>
+							</a>
 							<div class="content-slide__text">
 									<span>{m.healthcare()}</span>
 								<a href="#">{m.healthcareInstitutions()}</a>
@@ -64,12 +80,15 @@ import * as m from "../paraglide/messages.js"
 						</div>
 					</div>
 				</div>
-			</div><div class="portfolio__slide swiper-slide" data-swiper-slide-index="5" style="width: 463.333px; margin-right: 25px;">
+			</div>
+			<div class="portfolio__slide swiper-slide" data-swiper-slide-index="5" style="width: 463.333px; margin-right: 25px;">
 				<div class="portfolio__slide-contentainer">
 					<img src="images/portfolio-02.webp" alt={m.healthcare()}>
 					<div class="portfolio__slide-content content-slide">
 						<div class="content-slide__details">
-							<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
+							<a href="#" class="content-slide__icon _icon-arrow-up-right">
+								<Icon name="arrowUpRight" class="portfolio-arrow-up-right"/>
+							</a>
 							<div class="content-slide__text">
 									<span>{m.healthcare()}</span>
 								<a href="#">{m.healthcareInstitutions()}</a>
@@ -77,12 +96,15 @@ import * as m from "../paraglide/messages.js"
 						</div>
 					</div>
 				</div>
-			</div><div class="portfolio__slide swiper-slide swiper-slide-prev" data-swiper-slide-index="6" style="width: 463.333px; margin-right: 25px;">
+			</div>
+			<div class="portfolio__slide swiper-slide swiper-slide-prev" data-swiper-slide-index="6" style="width: 463.333px; margin-right: 25px;">
 				<div class="portfolio__slide-contentainer">
 					<img src="images/portfolio-03.webp" alt={m.healthcare()}>
 					<div class="portfolio__slide-content content-slide">
 						<div class="content-slide__details">
-							<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
+							<a href="#" class="content-slide__icon _icon-arrow-up-right">
+								<Icon name="arrowUpRight" class="portfolio-arrow-up-right"/>
+							</a>
 							<div class="content-slide__text">
 									<span>{m.healthcare()}</span>
 								<a href="#">{m.healthcareInstitutions()}</a>
@@ -90,12 +112,15 @@ import * as m from "../paraglide/messages.js"
 						</div>
 					</div>
 				</div>
-			</div><div class="portfolio__slide swiper-slide swiper-slide-active" data-swiper-slide-index="7" style="width: 463.333px; margin-right: 25px;">
+			</div>
+			<div class="portfolio__slide swiper-slide swiper-slide-active" data-swiper-slide-index="7" style="width: 463.333px; margin-right: 25px;">
 				<div class="portfolio__slide-contentainer">
 					<img src="images/portfolio-04.webp" alt={m.healthcare()}>
 					<div class="portfolio__slide-content content-slide">
 						<div class="content-slide__details">
-							<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
+							<a href="#" class="content-slide__icon _icon-arrow-up-right">
+								<Icon name="arrowUpRight" class="portfolio-arrow-up-right"/>
+							</a>
 							<div class="content-slide__text">
 									<span>{m.healthcare()}</span>
 								<a href="#">{m.healthcareInstitutions()}</a>
@@ -103,12 +128,15 @@ import * as m from "../paraglide/messages.js"
 						</div>
 					</div>
 				</div>
-			</div><div class="portfolio__slide swiper-slide swiper-slide-next" data-swiper-slide-index="0" style="width: 463.333px; margin-right: 25px;">
+			</div>
+			<div class="portfolio__slide swiper-slide swiper-slide-next" data-swiper-slide-index="0" style="width: 463.333px; margin-right: 25px;">
 				<div class="portfolio__slide-contentainer">
 					<img src="images/portfolio-01.webp" alt={m.healthcare()}>
 					<div class="portfolio__slide-content content-slide">
 						<div class="content-slide__details">
-							<a href="#" class="content-slide__icon _icon-arrow-up-right"></a>
+							<a href="#" class="content-slide__icon _icon-arrow-up-right">
+								<Icon name="arrowUpRight" class="portfolio-arrow-up-right"/>
+							</a>
 							<div class="content-slide__text">
 									<span>{m.healthcare()}</span>
 								<a href="#">{m.healthcareInstitutions()}</a>
@@ -116,6 +144,7 @@ import * as m from "../paraglide/messages.js"
 						</div>
 					</div>
 				</div>
-			</div></div>
+			</div>
+		</div>
 	</div>
 </section>
